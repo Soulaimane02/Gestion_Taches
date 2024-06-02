@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="522.0" prefWidth="393.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label fx:id="welcomeText111" contentDisplay="CENTER" layoutX="34.0" layoutY="384.0" prefHeight="31.0" prefWidth="135.0" text="Connexion" textAlignment="JUSTIFY" textFill="#2ad338">
+      <font>
+         <Font name="Al Tarikh Regular" size="22.0" />
+      </font>
+   </Label>
+   <ImageView fitHeight="296.0" fitWidth="392.0" onDragDetected="#changerScene1" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="file:/Users/zelloufisoulaimane/IdeaProjects/test/src/main/login_tache_FX.jpg" />
+      </image>
+   </ImageView>
+   <Label fx:id="welcomeText1" contentDisplay="TOP" layoutX="303.0" layoutY="412.0" prefHeight="17.0" prefWidth="926.0" text="Email" />
+   <TextField fx:id="mailConnexion" />
+   <Label fx:id="welcomeText11" layoutX="34.0" layoutY="320.0" prefHeight="17.0" prefWidth="939.0" text="Mot de Passe " />
+   <TextField fx:id="mdpConnexion" layoutX="30.0" layoutY="343.0" />
+   <Button alignment="TOP_CENTER" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#test" text="Se connecter" />
+   <Button layoutX="281.0" layoutY="494.0" mnemonicParsing="false" onAction="#changerScene1" text="S'inscrire ?" />
+</VBox>
